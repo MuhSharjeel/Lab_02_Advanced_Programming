@@ -54,10 +54,10 @@ int main(){
 			cout << "\n";
 		}
 	}
-	int array[2][2] = { { 8, 8 }, { 8, 8 } };
+	int arr[2][2] = { { 8, 8 }, { 8, 8 } };
 	for (int i = 0; i < a; i++){
 		for (int j = 0; j < b; j++){
-			if (array[i][j] == mul[i][j]){
+			if (arr[i][j] == mul[i][j]){
 				cout << "\n\n Yes";
 			}
 		}
